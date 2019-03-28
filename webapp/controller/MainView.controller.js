@@ -4,8 +4,9 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("com.sap.mygithup_app.MyGitApp.controller.MainView", {
-		onInit: function () {
-
+		onInit: function () {	
+			var jsonmodle = new sap.ui.model.json.JSONModel();
+			this.getView().setModel(jsonmodle);
 		},
 
 		myPress: function (evt) {
