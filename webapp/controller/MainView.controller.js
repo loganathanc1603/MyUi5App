@@ -10,6 +10,7 @@ sap.ui.define([
 
 		myPress: function (evt) {
 			var oV = evt.getSource().getText();
+			sap.m.MessageToast.show(oV);
 		}
 	});
 });
