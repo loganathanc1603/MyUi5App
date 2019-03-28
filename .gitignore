@@ -11,6 +11,10 @@ UIAdaptation_index.html
 changes_preview.js
 AppVariant_index.html
 APIExternalProducer.js
+<<<<<<< HEAD
+.*/APIExternalProducer.js
+=======
 .*/APIExternalProducer.js
 preview.json
 cp.project.properties.json
+>>>>>>> refs/heads/master
