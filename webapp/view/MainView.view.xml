@@ -2,7 +2,7 @@
 	<Shell id="shell">
 		<App id="app" >
 			<pages>
-				<Page id="page" title="Test App for GitHub">
+				<Page id="page" title="Test App for GitHub ( Account 2 )">
 					<content>
 						<Button text="Click Here..." press="myPress" type="Accept" icon="sap-icon://add"></Button>
 					</content>
