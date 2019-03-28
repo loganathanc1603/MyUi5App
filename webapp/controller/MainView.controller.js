@@ -6,6 +6,10 @@ sap.ui.define([
 	return Controller.extend("com.sap.mygithup_app.MyGitApp.controller.MainView", {
 		onInit: function () {
 
+		},
+
+		myPress: function (evt) {
+			var oV = evt.getSource().getText();
 		}
 	});
 });
