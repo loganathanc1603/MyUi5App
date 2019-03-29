@@ -4,7 +4,7 @@
 			<pages>
 				<Page id="page" title="Test App for GitHub" showNavButton="true">
 					<content>
-						<Input value=""></Input>
+						<Input value="" change="onCInput"></Input>
 						<Button text="Click Here..." press="myPress" type="Accept" icon="sap-icon://add"></Button>
 					</content>
 				</Page>
